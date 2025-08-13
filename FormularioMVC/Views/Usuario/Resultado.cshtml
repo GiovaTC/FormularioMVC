@@ -1,0 +1,14 @@
+﻿@model FormularioMVC.Models.Usuario
+
+@{
+    ViewData["Title"] = "Resultado del Registro";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div class="alert alert-success">
+    <p><strong>Nombre:</strong> @Model.Nombre</p>
+    <p><strong>Correo:</strong> @Model.Correo</p>
+    <p><strong>Mensaje:</strong> @ViewBag.Mensaje</p>
+</div>
+
